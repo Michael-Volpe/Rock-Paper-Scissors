@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: #122112;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome {
+    font-family: 'Bungee';
+    color: white;
+}
+
+#askButton {
+    position: relative;
+    top: 20px;
+    font-family: 'Bungee';
+    height:50px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(107, 165, 143);
+    color: white;
+    border: 10px;
+    padding: 25px;
+}
+
+#output {
+    font-family: 'Bungee';
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 90%; 
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    transition: bottom 0.3s ease; 
+}
+
+#userChoice {
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'bungee';
+    background-color: rgb(107, 165, 143);
+    color: white;
+}
+
+label[for="userChoice"] {
+    font-family: 'Bungee';
+    color: white;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
